@@ -40,3 +40,24 @@ person -> device -> alexa cloud service -> your skill
                                       ----> Learning phrases
                                       ----> Parameters
 ```
+
+developper.amazon.com/skills
+
+## Intent 
+
+Amazon oblige les intents pour une UX intéressante: stopIntent, cancelIntent, helpIntent
+
+amazon ask: outil en ligne de commande pour Alexa
+aide au déploiement
+
+voir démo: [ci-contre](http://goo.gl/pDeLZy)
+[glitch](glitch.com): editeur en ligne, hot reload, back-end ...
+`new alexa.app("message/receive")` => uri vers laqeuele on pointe
+
+dans l'espace officiel, simulateur pour tester le FR
+avec le SDK Amazon, parsing du message, validation du format.
+ssml => langage de markup pour rajouter de l'émotion à un message.
+
+
+
+
