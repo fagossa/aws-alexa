@@ -62,3 +62,12 @@ avec le SDK Amazon, parsing du message, validation du format.
 
 ssml => langage de markup pour rajouter de l'émotion à un message.
 
+### Parameters
+
+Intents can have parameters
+
+> l'état du trafic du métro {metroline}
+
+If the parameter is a contraint of values, you need to create an `slot type` (e.g. metroline) to define the actual values
+
+
