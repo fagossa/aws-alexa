@@ -50,14 +50,15 @@ Amazon oblige les intents pour une UX intéressante: stopIntent, cancelIntent, h
 amazon ask: outil en ligne de commande pour Alexa
 aide au déploiement
 
-voir démo: [ci-contre](http://goo.gl/pDeLZy)
-[glitch](glitch.com): editeur en ligne, hot reload, back-end ...
+voir démo: sur [glitch](http://goo.gl/pDeLZy)
+
+Glitch: editeur en ligne, hot reload, back-end(nodejs) ...
+
 `new alexa.app("message/receive")` => uri vers laqeuele on pointe
 
 dans l'espace officiel, simulateur pour tester le FR
+
 avec le SDK Amazon, parsing du message, validation du format.
+
 ssml => langage de markup pour rajouter de l'émotion à un message.
-
-
-
 
