@@ -70,4 +70,21 @@ Intents can have parameters
 
 If the parameter is a contraint of values, you need to create an `slot type` (e.g. metroline) to define the actual values
 
+## SSML
 
+The language [ssml](https://developers.google.com/actions/reference/ssml) allow us to add feelings and effets to the responses. It is supported by AWS, google and microsoft.
+
+```xml
+<speak>
+  Here are <say-as interpret-as="characters">SSML</say-as> samples.
+  I can pause <break time="3s"/>.
+  I can play a sound
+  <audio src="https://www.example.com/MY_MP3_FILE.mp3">didn't get your MP3 audio file</audio>.
+  I can speak in cardinals. Your number is <say-as interpret-as="cardinal">10</say-as>.
+  Or I can speak in ordinals. You are <say-as interpret-as="ordinal">10</say-as> in line.
+  Or I can even speak in digits. The digits for ten are <say-as interpret-as="characters">10</say-as>.
+  I can also substitute phrases, like the <sub alias="World Wide Web Consortium">W3C</sub>.
+  Finally, I can speak a paragraph with two sentences.
+  <p><s>This is sentence one.</s><s>This is sentence two.</s></p>
+</speak>
+```
