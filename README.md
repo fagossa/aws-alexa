@@ -68,6 +68,8 @@ Intents can have parameters
 
 > l'état du trafic du métro {metroline}
 
+[état traffic RATP](https://www.ratp.fr/meteo/ajax/data)
+
 If the parameter is a contraint of values, you need to create an `slot type` (e.g. metroline) to define the actual values
 
 ## SSML
